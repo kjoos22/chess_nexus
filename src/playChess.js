@@ -6,10 +6,10 @@ class playChess {
     }
 
     drawBoard() {
-        var board = new Image()
-        board.src = "src/assets/board squares/square brown dark_svg.svg"
-        board.addEventListener('load', e =>  {
-            this.ctx.drawImage(board, 0, 0, 100, 100)
+        const square1 = new Image()
+        square1.src = "src/assets/board squares/square brown dark_svg.svg"
+        square1.addEventListener('load', e =>  {
+            this.ctx.drawImage(square1, 0, 0, 100, 100)
         })
         
 
