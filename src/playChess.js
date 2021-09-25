@@ -7,9 +7,19 @@ class playChess {
 
     drawBoard() {
         const square1 = new Image()
-        square1.src = "src/assets/board squares/square brown dark_svg.svg"
+        const square2 = new Image()
+        square1.src = "src/assets/board squares/square brown light.svg"
+        square2.src = "src/assets/board squares/square brown dark.svg"
         square1.addEventListener('load', e =>  {
-            this.ctx.drawImage(square1, 0, 0, 100, 100)
+            let x = 0, y = 0
+            while (x <= 800) {
+                this.ctx.drawImage(square1, x, 0, 100, 100)
+                x += 100
+                this.ctx.drawImage(square2, x, 0, 100, 100)
+                x += 100
+            }
+            //this.ctx.drawImage(square1, 0, 0, 100, 100)
+            //this.ctx.drawImage(square1, 200, 0, 100, 100)
         })
         
 
