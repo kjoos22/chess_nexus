@@ -17,14 +17,14 @@ class playChess {
             'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'h7', 'h8'
         ]
         this.squares = {
-            a1: {x: 0, y: 700, color: "dark"},
-            a2: {x: 0, y: 600, color: "light"},
-            a3: {x: 0, y: 500, color: "dark"},
-            a4: {x: 0, y: 400, color: "light"},
-            a5: {x: 0, y: 300, color: "dark"},
-            a6: {x: 0, y: 200, color: "light"},
-            a7: {x: 0, y: 100, color: "dark"},
-            a8: {x: 0, y: 0, color: "light"}
+            a1: {x: 0, y: 700},
+            a2: {x: 0, y: 600},
+            a3: {x: 0, y: 500},
+            a4: {x: 0, y: 400},
+            a5: {x: 0, y: 300},
+            a6: {x: 0, y: 200},
+            a7: {x: 0, y: 100},
+            a8: {x: 0, y: 0}
         }
     }
 
