@@ -3,8 +3,9 @@ class playChess {
     constructor() {
         this.canvas = document.getElementById("gameBoard")
         this.ctx = this.canvas.getContext("2d")
+        this.lightSquare = "src/assets/board squares/square brown light.svg"
+        this.darkSquare = "src/assets/board squares/square brown dark.svg"
 
-        
         this.boardCoords = [
             'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8',
             'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8',
@@ -30,11 +31,10 @@ class playChess {
     drawBoard() {
         const light = new Image()
         const dark = new Image()
-        light.src = "src/assets/board squares/square brown light.svg"
-        dark.src = "src/assets/board squares/square brown dark.svg"
+        light.src = this.lightSquare
+        dark.src = this.darkSquare
         light.addEventListener('load', e =>  {
             dark.addEventListener('load', e => {
-                //this.ctx.drawImage(light, this.boardCoords.a1.x, this.boardCoords.a1.y, 100, 100)
                 let x = 0, y = 700, square1 = dark, square2 = light
                 while (y >= 0) {
                     while (x <= 700) {
