@@ -11,8 +11,9 @@ function boardColorToggle(e) {
     if (game.lightSquare == "src/assets/board squares/square brown light.svg") {
         game.lightSquare = "src/assets/board squares/square gray light.svg" 
     }else game.lightSquare = "src/assets/board squares/square brown light.svg"
-    
+
     game.drawBoard()
 }
 
 game.drawBoard()
+game.drawPieces()

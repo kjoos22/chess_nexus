@@ -29,8 +29,8 @@ class playChess {
     }
 
     drawBoard() {
-        const light = new Image()
-        const dark = new Image()
+        let light = new Image()
+        let dark = new Image()
         light.src = this.lightSquare
         dark.src = this.darkSquare
         light.addEventListener('load', e =>  {
@@ -53,10 +53,15 @@ class playChess {
                     x = 0
                 }
             })
+        })             
+    }
+
+    drawPieces() {
+        let wRook = new Image()
+        wRook.src = "src/assets/SVG No Shadow/w_rook_svg_NoShadow.svg"
+        wRook.addEventListener("load", e => {
+            this.ctx.drawImage(wRook, 10, 710, 80, 80)
         })
-            
-                
-                
     }
         
 
