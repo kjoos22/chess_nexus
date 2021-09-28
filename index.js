@@ -1,7 +1,9 @@
 const game = new playChess()
 const toggleBoardButton = document.getElementById("boardColorToggle")
+const gameBoard = document.getElementById("gameBoard")
 
 toggleBoardButton.addEventListener("click", boardColorToggle)
+gameBoard.addEventListener("click", handleBoardClick)
 
 function boardColorToggle(e) {
     if (game.darkSquare == "src/assets/board squares/square brown dark.svg") {
@@ -13,6 +15,13 @@ function boardColorToggle(e) {
     }else game.lightSquare = "src/assets/board squares/square brown light.svg"
 
     game.drawBoard()
+}
+
+function handleBoardClick(e) {
+    if(e.clientX <= 100 && e.clientY >= 700) {
+       game.drawBoard() 
+    }
+    
 }
 
 game.drawBoard()

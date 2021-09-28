@@ -4,7 +4,8 @@ class playChess {
         this.canvas = document.getElementById("gameBoard")
         this.ctx = this.canvas.getContext("2d")
         this.lightSquare = "src/assets/board squares/square brown light.svg"
-        this.darkSquare = "src/assets/board squares/square brown dark.svg"
+        this.darkSquare = "src/assets/board squares/square brown dark.svg"      
+
 
         this.boardCoords = [
             'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8',
