@@ -1,4 +1,4 @@
-class playChess {
+class PlayChess {
     
     constructor() {
         this.canvas = document.getElementById("gameBoard")
@@ -25,7 +25,8 @@ class playChess {
             a5: {x: 0, y: 300},
             a6: {x: 0, y: 200},
             a7: {x: 0, y: 100},
-            a8: {x: 0, y: 0}
+            a8: {x: 0, y: 0},
+            h1: {x1: 0, x2: 100, y1: 700, y2:700}
         }
     }
 

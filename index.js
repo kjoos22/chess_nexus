@@ -1,4 +1,4 @@
-const game = new playChess()
+const game = new PlayChess()
 const toggleBoardButton = document.getElementById("boardColorToggle")
 const gameBoard = document.getElementById("gameBoard")
 
@@ -19,7 +19,7 @@ function boardColorToggle(e) {
 
 function handleBoardClick(e) {
     if(e.clientX <= 100 && e.clientY >= 700) {
-       game.drawBoard() 
+       console.log(game.squares.h1.x1)
     }
     
 }
