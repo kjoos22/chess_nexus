@@ -68,10 +68,10 @@ class PlayChess {
             this.ctx.drawImage(wQueen, 310, 710, 80, 80)
         })
 
-        let qKing = new Image()
-        qKing.src = "src/assets/pieces/w_king.svg"
-        qKing.addEventListener("load", e => {
-            this.ctx.drawImage(qKing, 410, 710, 80, 80)
+        let wKing = new Image()
+        wKing.src = "src/assets/pieces/w_king.svg"
+        wKing.addEventListener("load", e => {
+            this.ctx.drawImage(wKing, 410, 710, 80, 80)
         })
 
         let wPawn = new Image()
@@ -85,6 +85,39 @@ class PlayChess {
             this.ctx.drawImage(wPawn, 510, 610, 80, 80)
             this.ctx.drawImage(wPawn, 610, 610, 80, 80)
             this.ctx.drawImage(wPawn, 710, 610, 80, 80)
+        })
+
+        let bRook = new Image()
+        bRook.src = "src/assets/pieces/b_rook.svg"
+        bRook.addEventListener("load", e => {
+            this.ctx.drawImage(bRook, 10, 10, 80, 80)
+            this.ctx.drawImage(bRook, 710, 10, 80, 80)
+        })
+
+        let bKnight = new Image()
+        bKnight.src = "src/assets/pieces/b_knight.svg"
+        bKnight.addEventListener("load", e => {
+            this.ctx.drawImage(bKnight, 110, 10, 80, 80)
+            this.ctx.drawImage(bKnight, 610, 10, 80, 80)
+        })
+
+        let bBishop = new Image()
+        bBishop.src = "src/assets/pieces/b_bishop.svg"
+        bBishop.addEventListener("load", e => {
+            this.ctx.drawImage(bBishop, 210, 10, 80, 80)
+            this.ctx.drawImage(bBishop, 510, 10, 80, 80)
+        })
+
+        let bQueen = new Image()
+        bQueen.src = "src/assets/pieces/b_queen.svg"
+        bQueen.addEventListener("load", e => {
+            this.ctx.drawImage(bQueen, 310, 10, 80, 80)
+        })
+
+        let bKing = new Image()
+        bKing.src = "src/assets/pieces/b_king.svg"
+        bKing.addEventListener("load", e => {
+            this.ctx.drawImage(bKing, 410, 10, 80, 80)
         })
 
     }
