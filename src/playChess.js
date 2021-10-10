@@ -120,6 +120,19 @@ class PlayChess {
             this.ctx.drawImage(bKing, 410, 10, 80, 80)
         })
 
+        let bPawn = new Image()
+        bPawn.src = "src/assets/pieces/b_pawn.svg"
+        bPawn.addEventListener("load", e => {
+            this.ctx.drawImage(bPawn, 10, 110, 80, 80)
+            this.ctx.drawImage(bPawn, 110, 110, 80, 80)
+            this.ctx.drawImage(bPawn, 210, 110, 80, 80)
+            this.ctx.drawImage(bPawn, 310, 110, 80, 80)
+            this.ctx.drawImage(bPawn, 410, 110, 80, 80)
+            this.ctx.drawImage(bPawn, 510, 110, 80, 80)
+            this.ctx.drawImage(bPawn, 610, 110, 80, 80)
+            this.ctx.drawImage(bPawn, 710, 110, 80, 80)
+        })
+
     }
         
 
