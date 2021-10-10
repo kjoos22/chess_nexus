@@ -3,8 +3,8 @@ class PlayChess {
     constructor() {
         this.canvas = document.getElementById("gameBoard")
         this.ctx = this.canvas.getContext("2d")
-        this.lightSquare = "src/assets/board squares/square brown light.svg"
-        this.darkSquare = "src/assets/board squares/square brown dark.svg"
+        this.lightSquare = "src/assets/board squares/square gray light.svg"
+        this.darkSquare = "src/assets/board squares/square gray dark.svg"
         
         this.gameState = new GameState()
 
