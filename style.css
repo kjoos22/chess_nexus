@@ -1,12 +1,26 @@
 .columnCoordContainer {
     width: 800px;
-    
+    padding-left: 22px    
 }
 
 .columnCoord {
     width: 12.5%;
     text-align: center;
     display: inline-block;
+    margin: -1.8px -1.8px -1.8px -1.8px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.rowCoordContainer {
+    display: inline-block;
+    width: 19.2px;
+    height: 800px;
+}
+
+.rowCoord {
+    height: 12.5%;
+    text-align: center;
     margin: -1.8px -1.8px -1.8px -1.8px;
     font-size: 14pt;
     font-weight: bold;
