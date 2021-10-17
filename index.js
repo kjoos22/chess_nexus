@@ -20,7 +20,7 @@ function boardColorToggle(e) {
 
 function handleBoardClick(e) {
     if(e.clientX <= 100 && e.clientY >= 700) {
-       console.log(game.squares.h1.x1)
+       console.log(game.gameState.squares.h1)
     }
     
 }

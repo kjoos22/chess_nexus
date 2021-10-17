@@ -1,4 +1,10 @@
-.board {
+.columnCoordContainer {
+    width: 800px;
+}
+
+.columnCoord {
+    width: 12.5%;
+    text-align: center;
+    display: inline-block;
     padding: 0;
-    
 }
