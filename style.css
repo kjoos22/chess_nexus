@@ -14,14 +14,23 @@
 
 .rowCoordContainer {
     display: inline-block;
-    width: 19.2px;
+    width: 12px;
     height: 800px;
+    position: absolute;
+    
+    
 }
 
 .rowCoord {
     height: 12.5%;
-    text-align: center;
-    margin: -1.8px -1.8px -1.8px -1.8px;
+    
+    margin: 0px 0px 0px 0px;
     font-size: 14pt;
     font-weight: bold;
+    white-space: pre-wrap;
+    
+}
+
+#gameBoard {
+    padding-left: 20px;
 }

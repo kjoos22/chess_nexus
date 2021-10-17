@@ -7,27 +7,30 @@
 </head>
 <body>
     
-    <div class="columnCoordContainer">
-        <p class="columnCoord">A</p>
-        <p class="columnCoord">B</p>
-        <p class="columnCoord">C</p>
-        <p class="columnCoord">D</p>
-        <p class="columnCoord">E</p>
-        <p class="columnCoord">F</p>
-        <p class="columnCoord">G</p>
-        <p class="columnCoord">H</p>        
+    <div id="boardAndBorderContainer">
+        <div class="columnCoordContainer">
+            <p class="columnCoord">A</p>
+            <p class="columnCoord">B</p>
+            <p class="columnCoord">C</p>
+            <p class="columnCoord">D</p>
+            <p class="columnCoord">E</p>
+            <p class="columnCoord">F</p>
+            <p class="columnCoord">G</p>
+            <p class="columnCoord">H</p>        
+        </div>
+        <div class="rowCoordContainer">
+            <p class="rowCoord">   1</p>
+            <p class="rowCoord">   2</p>
+            <p class="rowCoord">   3</p>
+            <p class="rowCoord">   4</p>
+            <p class="rowCoord">   5</p>
+            <p class="rowCoord">   6</p>
+            <p class="rowCoord">   7</p>
+            <p class="rowCoord">   8</p>
+        </div>
+        <canvas id="gameBoard" width="800" height="800"></canvas>
     </div>
-    <div class="rowCoordContainer">
-        <p class="rowCoord">1</p>
-        <p class="rowCoord">2</p>
-        <p class="rowCoord">3</p>
-        <p class="rowCoord">4</p>
-        <p class="rowCoord">5</p>
-        <p class="rowCoord">6</p>
-        <p class="rowCoord">7</p>
-        <p class="rowCoord">8</p>
-    </div>
-    <canvas id="gameBoard" width="800" height="800"></canvas><br>
+    <br>
     <button id="boardColorToggle" type="button">Toggle Board Colors</button>
 
 
