@@ -137,8 +137,15 @@ class PlayChess {
 
     determineSquareClicked(e) {
         if(e.clientX <= 100 && e.clientY >= 700) {
-            console.log(game.gameState.squares.h1)
-         }
+            console.log(game.gameState.squares.a1)
+        }else if (e.clientX <= 100 && e.clientY >= 600) {
+            console.log(game.gameState.squares.a2)
+        }else if (e.clientX <= 100 && e.clientY >= 500) {
+            console.log(game.gameState.squares.a3)
+        }else if (e.clientX <= 100 && e.clientY >= 400) {
+            console.log(game.gameState.squares.a4)
+        }
+
     }
         
 

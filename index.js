@@ -20,7 +20,9 @@ function boardColorToggle(e) {
 
 function handleBoardClick(e) {
     game.determineSquareClicked(e)
-    
+    console.log("X: " + (e.clientX - gameBoard.getBoundingClientRect().x) + " Y: " + e.clientY)
+    console.log(gameBoard.getBoundingClientRect())
+    console.log(gameBoard.offsetLeft)
 }
 
 game.drawBoard()

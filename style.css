@@ -30,4 +30,7 @@
 
 #gameBoard {
     padding-left: 20px;
+    height: 800px;
+    width: 800px;
+    box-sizing: border-box;
 }
