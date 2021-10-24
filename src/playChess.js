@@ -139,13 +139,22 @@ class PlayChess {
         //subtract 28 for padding and offset
         if(e.clientX-28 <= 100 && e.clientY >= 700) {
             console.log("A1")
-        }else if (e.clientX <= 100 && e.clientY >= 600) {
+        }else if (e.clientX-28 <= 100 && e.clientY >= 600) {
             console.log("A2")
-        }else if (e.clientX <= 100 && e.clientY >= 500) {
+        }else if (e.clientX-28 <= 100 && e.clientY >= 500) {
             console.log("A3")
-        }else if (e.clientX <= 100 && e.clientY >= 400) {
+        }else if (e.clientX-28 <= 100 && e.clientY >= 400) {
             console.log("A4")
+        }else if (e.clientX-28 <= 100 && e.clientY >= 300) {
+            console.log("A5")
+        }else if (e.clientX-28 <= 100 && e.clientY >= 200) {
+            console.log("A6")
+        }else if (e.clientX-28 <= 100 && e.clientY >= 100) {
+            console.log("A7")
+        }else if (e.clientX-28 <= 100 && e.clientY >= 0) {
+            console.log("A8")
         }
+        
 
     }
         
