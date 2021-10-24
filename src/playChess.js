@@ -136,23 +136,39 @@ class PlayChess {
     }
 
     determineSquareClicked(e) {
-        //subtract 28 for padding and offset
-        if(e.clientX-28 <= 100 && e.clientY >= 700) {
+        //subtract 28 for padding and offset (X), 27.203125 for offset (Y)
+        if(e.clientX-28 <= 100 && e.clientY - 27.203125 >= 700) {
             console.log("A1")
-        }else if (e.clientX-28 <= 100 && e.clientY >= 600) {
+        }else if (e.clientX-28 <= 100 && e.clientY - 27.203125 >= 600) {
             console.log("A2")
-        }else if (e.clientX-28 <= 100 && e.clientY >= 500) {
+        }else if (e.clientX-28 <= 100 && e.clientY - 27.203125 >= 500) {
             console.log("A3")
-        }else if (e.clientX-28 <= 100 && e.clientY >= 400) {
+        }else if (e.clientX-28 <= 100 && e.clientY - 27.203125 >= 400) {
             console.log("A4")
-        }else if (e.clientX-28 <= 100 && e.clientY >= 300) {
+        }else if (e.clientX-28 <= 100 && e.clientY - 27.203125 >= 300) {
             console.log("A5")
-        }else if (e.clientX-28 <= 100 && e.clientY >= 200) {
+        }else if (e.clientX-28 <= 100 && e.clientY - 27.203125 >= 200) {
             console.log("A6")
-        }else if (e.clientX-28 <= 100 && e.clientY >= 100) {
+        }else if (e.clientX-28 <= 100 && e.clientY - 27.203125 >= 100) {
             console.log("A7")
-        }else if (e.clientX-28 <= 100 && e.clientY >= 0) {
+        }else if (e.clientX-28 <= 100) {
             console.log("A8")
+        }else if (e.clientX-28 <= 200 && e.clientY - 27.203125 >= 700) {
+            console.log("B1")
+        }else if (e.clientX-28 <= 200 && e.clientY - 27.203125 >= 600) {
+            console.log("B2")
+        }else if (e.clientX-28 <= 200 && e.clientY - 27.203125 >= 500) {
+            console.log("B3")
+        }else if (e.clientX-28 <= 200 && e.clientY - 27.203125 >= 400) {
+            console.log("B4")
+        }else if (e.clientX-28 <= 200 && e.clientY - 27.203125 >= 300) {
+            console.log("B5")
+        }else if (e.clientX-28 <= 200 && e.clientY - 27.203125 >= 200) {
+            console.log("B6")
+        }else if (e.clientX-28 <= 200 && e.clientY - 27.203125 >= 100) {
+            console.log("B7")
+        }else if (e.clientX-28 <= 200) {
+            console.log("B8")
         }
         
 
