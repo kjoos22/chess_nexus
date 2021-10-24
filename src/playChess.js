@@ -137,6 +137,7 @@ class PlayChess {
 
     determineSquareClicked(e) {
         //subtract 28 for padding and offset (X), 27.203125 for offset (Y)
+        //refactor into determine X then Y for efficiency 
         if(e.clientX-28 <= 100 && e.clientY - 27.203125 >= 700) {
             console.log("A1")
         }else if (e.clientX-28 <= 100 && e.clientY - 27.203125 >= 600) {
@@ -169,6 +170,102 @@ class PlayChess {
             console.log("B7")
         }else if (e.clientX-28 <= 200) {
             console.log("B8")
+        }else if (e.clientX-28 <= 300 && e.clientY - 27.203125 >= 700) {
+            console.log("C1")
+        }else if (e.clientX-28 <= 300 && e.clientY - 27.203125 >= 600) {
+            console.log("C2")
+        }else if (e.clientX-28 <= 300 && e.clientY - 27.203125 >= 500) {
+            console.log("C3")
+        }else if (e.clientX-28 <= 300 && e.clientY - 27.203125 >= 400) {
+            console.log("C4")
+        }else if (e.clientX-28 <= 300 && e.clientY - 27.203125 >= 300) {
+            console.log("C5")
+        }else if (e.clientX-28 <= 300 && e.clientY - 27.203125 >= 200) {
+            console.log("C6")
+        }else if (e.clientX-28 <= 300 && e.clientY - 27.203125 >= 100) {
+            console.log("C7")
+        }else if (e.clientX-28 <= 300) {
+            console.log("C8")
+        }else if (e.clientX-28 <= 400 && e.clientY - 27.203125 >= 700) {
+            console.log("D1")
+        }else if (e.clientX-28 <= 400 && e.clientY - 27.203125 >= 600) {
+            console.log("D2")
+        }else if (e.clientX-28 <= 400 && e.clientY - 27.203125 >= 500) {
+            console.log("D3")
+        }else if (e.clientX-28 <= 400 && e.clientY - 27.203125 >= 400) {
+            console.log("D4")
+        }else if (e.clientX-28 <= 400 && e.clientY - 27.203125 >= 300) {
+            console.log("D5")
+        }else if (e.clientX-28 <= 400 && e.clientY - 27.203125 >= 200) {
+            console.log("D6")
+        }else if (e.clientX-28 <= 400 && e.clientY - 27.203125 >= 100) {
+            console.log("D7")
+        }else if (e.clientX-28 <= 400) {
+            console.log("D8")
+        }else if (e.clientX-28 <= 500 && e.clientY - 27.203125 >= 700) {
+            console.log("E1")
+        }else if (e.clientX-28 <= 500 && e.clientY - 27.203125 >= 600) {
+            console.log("E2")
+        }else if (e.clientX-28 <= 500 && e.clientY - 27.203125 >= 500) {
+            console.log("E3")
+        }else if (e.clientX-28 <= 500 && e.clientY - 27.203125 >= 400) {
+            console.log("E4")
+        }else if (e.clientX-28 <= 500 && e.clientY - 27.203125 >= 300) {
+            console.log("E5")
+        }else if (e.clientX-28 <= 500 && e.clientY - 27.203125 >= 200) {
+            console.log("E6")
+        }else if (e.clientX-28 <= 500 && e.clientY - 27.203125 >= 100) {
+            console.log("E7")
+        }else if (e.clientX-28 <= 500) {
+            console.log("E8")
+        }else if (e.clientX-28 <= 600 && e.clientY - 27.203125 >= 700) {
+            console.log("F1")
+        }else if (e.clientX-28 <= 600 && e.clientY - 27.203125 >= 600) {
+            console.log("F2")
+        }else if (e.clientX-28 <= 600 && e.clientY - 27.203125 >= 500) {
+            console.log("F3")
+        }else if (e.clientX-28 <= 600 && e.clientY - 27.203125 >= 400) {
+            console.log("F4")
+        }else if (e.clientX-28 <= 600 && e.clientY - 27.203125 >= 300) {
+            console.log("F5")
+        }else if (e.clientX-28 <= 600 && e.clientY - 27.203125 >= 200) {
+            console.log("F6")
+        }else if (e.clientX-28 <= 600 && e.clientY - 27.203125 >= 100) {
+            console.log("F7")
+        }else if (e.clientX-28 <= 600) {
+            console.log("F8")
+        }else if (e.clientX-28 <= 700 && e.clientY - 27.203125 >= 700) {
+            console.log("G1")
+        }else if (e.clientX-28 <= 700 && e.clientY - 27.203125 >= 600) {
+            console.log("G2")
+        }else if (e.clientX-28 <= 700 && e.clientY - 27.203125 >= 500) {
+            console.log("G3")
+        }else if (e.clientX-28 <= 700 && e.clientY - 27.203125 >= 400) {
+            console.log("G4")
+        }else if (e.clientX-28 <= 700 && e.clientY - 27.203125 >= 300) {
+            console.log("G5")
+        }else if (e.clientX-28 <= 700 && e.clientY - 27.203125 >= 200) {
+            console.log("G6")
+        }else if (e.clientX-28 <= 700 && e.clientY - 27.203125 >= 100) {
+            console.log("G7")
+        }else if (e.clientX-28 <= 700) {
+            console.log("G8")
+        }else if (e.clientX-28 <= 800 && e.clientY - 27.203125 >= 700) {
+            console.log("H1")
+        }else if (e.clientX-28 <= 800 && e.clientY - 27.203125 >= 600) {
+            console.log("H2")
+        }else if (e.clientX-28 <= 800 && e.clientY - 27.203125 >= 500) {
+            console.log("H3")
+        }else if (e.clientX-28 <= 800 && e.clientY - 27.203125 >= 400) {
+            console.log("H4")
+        }else if (e.clientX-28 <= 800 && e.clientY - 27.203125 >= 300) {
+            console.log("H5")
+        }else if (e.clientX-28 <= 800 && e.clientY - 27.203125 >= 200) {
+            console.log("H6")
+        }else if (e.clientX-28 <= 800 && e.clientY - 27.203125 >= 100) {
+            console.log("H7")
+        }else if (e.clientX-28 <= 800) {
+            console.log("H8")
         }
         
 
