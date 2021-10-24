@@ -25,12 +25,10 @@
     font-size: 14pt;
     font-weight: bold;
     white-space: pre-wrap;
-    
 }
 
 #gameBoard {
     padding-left: 20px;
     height: 800px;
     width: 800px;
-    box-sizing: border-box;
 }
