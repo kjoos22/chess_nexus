@@ -132,4 +132,6 @@ class GameState {
                 piece: true, piece_type: "rook", piece_color: "b"},
         }
     }
+
+    
 }

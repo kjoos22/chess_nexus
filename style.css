@@ -17,13 +17,10 @@
     width: 12px;
     height: 800px;
     position: absolute;
-    
-    
 }
 
 .rowCoord {
-    height: 12.5%;
-    
+    height: 12.5%;    
     margin: 0px 0px 0px 0px;
     font-size: 14pt;
     font-weight: bold;
